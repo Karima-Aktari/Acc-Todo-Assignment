@@ -5,9 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "swiper/css/bundle";
 
+import LangState from './GroupProject/MultiLanguage/languagecontext/lang';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LangState>
+      <App />
+    </LangState>
   </React.StrictMode>,
   document.getElementById('root')
 );
